@@ -50,3 +50,20 @@ Another RViz window will open. Select `Approx IK Solutions` option and press the
 
 <img width="1220" height="914" alt="moveit planning" src="https://github.com/user-attachments/assets/638a5499-cff7-48e7-b5db-5ef44521f544" />
 
+2. Simulate with Gazebo:
+   
+   ```bash
+   ros2 launch arduinobot_description display.launch.xml
+   ros2 launch arduinobot_description simulation.launch.py
+   ros2 run arduinobot_description joint_trajectory.py  
+   ```
+
+   <img width="1600" height="900" alt="Screenshot from 2025-08-05 20-35-54" src="https://github.com/user-attachments/assets/2bc1de41-82e3-4095-8050-95ded663e1c5" />
+
+
+3. MoveIt in simulation:
+
+ ```bash
+ros2 launch arduinobot_description simulation.launch.py 
+ros2 launch arduinobot_mc demo.launch.py 
+```
