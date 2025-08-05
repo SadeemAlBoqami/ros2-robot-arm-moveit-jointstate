@@ -39,7 +39,7 @@ This method uses MoveIt for motion planning and inverse kinematics.
 **Steps:**
 1. Launch MoveIt with the robot arm:
 ```bash
-ros2 launch robot_arm_moveit_config demo.launch.py
+ros2 launch  arduinobot_mc demo.launch.py
 ```
 In RViz:
 Plan and execute motions.
