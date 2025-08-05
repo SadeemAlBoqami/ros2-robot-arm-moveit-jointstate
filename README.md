@@ -4,7 +4,8 @@ Controlling the robot arm by 2 methods:
 2- Moveit and kinematics
 
 ## Project Overview: 
-This project demonstrates controlling a robotic arm using ROS 2. It supports two main control methods:
+This project demonstrates controlling a robotic arm using ROS 2. It supports two main control methods:  
+
 1. **Joint State Publisher** – for manual joint manipulation and basic visualization in RViz.
 2. **MoveIt + Kinematics** – for motion planning and executing pre-defined or dynamically generated trajectories.
    
@@ -32,6 +33,9 @@ from terminal:
 2. Use the sliders in the GUI to move each joint.
 3. Visualize the motion in RViz.
 
+<img width="1600" height="900" alt="joint state sim" src="https://github.com/user-attachments/assets/e4dd394d-7c3b-4d1a-809f-eb76d19e6794" />
+
+
 
 ### 2- MoveIt + Kinematics
 This method uses MoveIt for motion planning and inverse kinematics.
@@ -41,5 +45,7 @@ This method uses MoveIt for motion planning and inverse kinematics.
 ```bash
 ros2 launch  arduinobot_mc demo.launch.py
 ```
-Another RViz window will open. Select `Approx IK Solutions` and press the `Plan` command. You can move the arm using the ball.<img width="1220" height="914" alt="moveit planning" src="https://github.com/user-attachments/assets/638a5499-cff7-48e7-b5db-5ef44521f544" />
+Another RViz window will open. Select `Approx IK Solutions` and press the `Plan` command. You can move the arm using the ball.
+
+<img width="1220" height="914" alt="moveit planning" src="https://github.com/user-attachments/assets/638a5499-cff7-48e7-b5db-5ef44521f544" />
 
