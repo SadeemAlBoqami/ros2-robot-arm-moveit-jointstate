@@ -7,8 +7,8 @@ Controlling the robot arm by 2 methods:
 ## Project Overview: 
 This project demonstrates controlling a robotic arm using ROS 2. It supports two main control methods:  
 
-1. **Joint State Publisher** – for manual joint manipulation and basic visualization in RViz.
-2. **MoveIt + Kinematics** – for motion planning and executing pre-defined or dynamically generated trajectories.
+**1. Joint State Publisher** – for manual joint manipulation and basic visualization in RViz.
+**2. MoveIt + Kinematics** – for motion planning and executing pre-defined or dynamically generated trajectories.
    
 The goal is to showcase how both low-level and high-level control methods can be implemented within the ROS 2 ecosystem. The project is useful for learning robot kinematics, MoveIt integration, and visualization using RViz2 and Gazebo.
 
