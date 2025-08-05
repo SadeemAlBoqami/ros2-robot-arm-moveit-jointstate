@@ -46,7 +46,7 @@ This method uses MoveIt for motion planning and inverse kinematics.
 ```bash
 ros2 launch  arduinobot_mc demo.launch.py
 ```
-Another RViz window will open. Select `Approx IK Solutions` and press the `Plan` command. You can move the arm using the ball.
+Another RViz window will open. Select `Approx IK Solutions` option and press the `Plan` command. You can move the arm using the ball.
 
 <img width="1220" height="914" alt="moveit planning" src="https://github.com/user-attachments/assets/638a5499-cff7-48e7-b5db-5ef44521f544" />
 
