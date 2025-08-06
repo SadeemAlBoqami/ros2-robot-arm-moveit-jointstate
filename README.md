@@ -15,7 +15,7 @@ The goal is to showcase how both low-level and high-level control methods can be
 ## Requirements:
 - Ubuntu 22.04 or compatible.
 - ROS2 (e.g. Humble).
-- [Robot_Arm_ROS2 Package](https://github.com/Mjd0001/Robot_Arm_ROS2) Make sure to clone and install the original package by following the instructions in its repository:
+- [Robot_Arm_ROS2 Package](https://github.com/SadeemAlBoqami/Robot_Arm_ROS2.git) Make sure to clone and install the original package by following the instructions in its repository:
     - [Dependencies](https://github.com/Mjd0001/Robot_Arm_ROS2?tab=readme-ov-file#dependencies)
     - [Installation](https://github.com/Mjd0001/Robot_Arm_ROS2?tab=readme-ov-file#installation)
  
